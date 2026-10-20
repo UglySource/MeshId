@@ -1,4 +1,3 @@
--- MM2 skin model data -- all Testol items (919 items).
 -- Each entry: Complete, Meta, Model; nodes use Class, Name, Props, Children.
 return {
     ["Gingerscope"] = {
