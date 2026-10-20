@@ -1,7 +1,3 @@
--- MM2 skin model data -- Godly / Chroma / Ancient only (170 items).
--- Generated from the weapon dump; consumed by the Skin Changer in mm2 autofarm.lua.
--- Each entry: Meta = { ItemName, Rarity, ItemType, Image, ... }, Model = <node tree>.
--- A Model node is { Class, Name, Props = { ..., RelCF = <offset from parent> }, Children }.
 return {
     ["Gingerscope"] = {
         Complete = true,
@@ -11326,8 +11322,8 @@ return {
                 Material     = Enum.Material.Plastic,
                 MeshId       = "rbxassetid://78349467382122",
                 Reflectance  = 0,
-                RelCF = CFrame.new(0, 0, 0, 1, 0, -0, 0, 1, 0, -0, 0, 1),
-                Size = Vector3.new(2.24476, 0.65492, 2.88),
+                RelCF        = CFrame.new(0, 0, 0, 0.0348752551, 0.990710258, 0.131441623, 0.506672859, -0.130893514, 0.852144122, 0.861432791, 0.0368791558, -0.506531),
+                Size         = Vector3.new(2.4693899154663086, 0.7526299953460693, 2.7383499145507812),
                 TextureID    = "rbxassetid://79171194928343",
                 Transparency = 0,
             },
