@@ -11346,7 +11346,8 @@ return {
                 Material     = Enum.Material.Plastic,
                 MeshId       = "rbxassetid://78349467382122",
                 Reflectance  = 0,
-                RelCF        = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                -- ↓↓↓ ВОТ ЗДЕСЬ ДОБАВЛЕНО ВРАЩЕНИЕ (поворот на -90 градусов по X) ↓↓↓
+                RelCF        = CFrame.new(0, 0, 0) * CFrame.Angles(math.rad(-90), 0, 0),
                 Size         = Vector3.new(2.0511, 1.2179, 2.9059),
                 TextureID    = "rbxassetid://79171194928343",
                 Transparency = 0,
