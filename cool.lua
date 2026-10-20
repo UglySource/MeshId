@@ -11322,8 +11322,11 @@ return {
                 Material     = Enum.Material.Plastic,
                 MeshId       = "rbxassetid://78349467382122",
                 Reflectance  = 0,
-                RelCF        = CFrame.new(0, 0, 0, 0.0348752551, 0.990710258, 0.131441623, 0.506672859, -0.130893514, 0.852144122, 0.861432791, 0.0368791558, -0.506531),
-                Size         = Vector3.new(2.4693899154663086, 0.7526299953460693, 2.7383499145507812),
+                
+                -- Выдвигаем вперед (Z = -0.9), чтобы не проваливался в тело
+                RelCF        = CFrame.new(0, 0, -0.9) * CFrame.Angles(0, 0, math.rad(90)),
+                
+                Size         = Vector3.new(2.0511, 1.2179, 2.9059),
                 TextureID    = "rbxassetid://79171194928343",
                 Transparency = 0,
             },
