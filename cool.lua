@@ -11346,8 +11346,9 @@ return {
                 Material     = Enum.Material.Plastic,
                 MeshId       = "rbxassetid://78349467382122",
                 Reflectance  = 0,
-                -- ↓↓↓ ВОТ ЗДЕСЬ ДОБАВЛЕНО ВРАЩЕНИЕ (поворот на -90 градусов по X) ↓↓↓
-                RelCF        = CFrame.new(0, 0, 0) * CFrame.Angles(math.rad(-90), 0, 0),
+                
+                -- ВРАЩЕНИЕ: Z = -90 (скручиваем, чтобы встал вертикально)
+                RelCF        = CFrame.new(0, 0, 0) * CFrame.Angles(0, 0, math.rad(-90)),
                 Size         = Vector3.new(2.0511, 1.2179, 2.9059),
                 TextureID    = "rbxassetid://79171194928343",
                 Transparency = 0,
@@ -11373,7 +11374,6 @@ return {
             },
         },
     },
-
     -- =========================================================
     -- EMBERSICKLE (Knife, Godly, Halloween 2026) — с Fire
     -- =========================================================
